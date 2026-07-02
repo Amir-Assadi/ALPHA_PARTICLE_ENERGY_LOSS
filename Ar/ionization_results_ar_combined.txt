@@ -1,0 +1,12 @@
+# Mean Excitation Energy Analysis Results for Argon
+# Material: Argon Gas (Z=18, A=39.948 g/mol)
+# Temperature: 300.15 K
+#
+# COMBINED RESULTS (all sources):
+# Overall I = 272.91 ± 65.10 eV
+#
+# Individual source results:
+#   PU: I = 297.26 ± 35.66 eV (16 points)
+#   AM: I = 302.48 ± 34.52 eV (17 points)
+#   CM: I = 309.67 ± 40.98 eV (13 points)
+#   TH: I = 167.53 ± 9.95 eV (13 points)

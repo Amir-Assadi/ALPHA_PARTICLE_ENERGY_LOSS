@@ -1,0 +1,7 @@
+Mean Excitation Energy Results for Argon
+Global Mean: 272.22 ± nan eV
+Global Weighted Mean: 272.22 ± 20.87 eV
+
+Individual measurements:
+Source	I (eV)	Unc (eV)
+PU	272.22	20.87

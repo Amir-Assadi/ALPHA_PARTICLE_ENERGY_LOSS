@@ -1,0 +1,5 @@
+# Calibration parameters: channel = a * E + c, or E = (channel - c) / a
+a = 276.31344209064656
+a_err = 0.06566255701668806
+c = -1.4684301524710373
+c_err = 0.19876375037122557
