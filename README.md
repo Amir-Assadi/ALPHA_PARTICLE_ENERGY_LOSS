@@ -1,66 +1,59 @@
 # ALPHA_PARTICLE_ENERGY_LOSS
 
-A third-year Physics project investigating the energy loss of alpha particles in different materials using the Bethe-Bloch stopping power framework.
+# Alpha Particle Energy Loss: Bethe-Bloch Stopping Power
 
-The project combines experimental data analysis, theoretical modelling, and Monte Carlo simulation to study charged particle interactions with matter. Experimental measurements were performed for gaseous helium (He), nitrogen (N₂), and argon (Ar), alongside metallic aluminium (Al) and nickel (Ni). For each material, the repository contains the corresponding analysis code, processed datasets, and generated figures.
+This repository contains the analysis scripts, datasets, figures, and Monte Carlo simulation code developed for a third-year undergraduate Physics project at the University of Manchester. 
 
-Project Components
-Experimental Data Analysis
-Energy calibration of silicon detector spectra.
-Automated peak extraction using multiple fitting models.
-Stopping power calculation from measured alpha-particle energy loss.
-Extraction of mean excitation energies (I-values) using the Bethe-Bloch formalism.
+The project investigates the energy loss of alpha particles in various materials using the Bethe-Bloch stopping power framework. It combines experimental data analysis, theoretical modelling, and Monte Carlo simulations to study charged particle interactions with matter.
 
-Material-Specific Analysis
+---
 
-Aluminium (Al)
-Nickel (Ni)
-Helium (He)
-Nitrogen (N₂)
-Argon (Ar)
+## Project Components
 
-Each material has its own directory containing analysis scripts, datasets, and figures.
+* **Experimental Data Analysis:** Energy calibration of silicon detector spectra.
+* **Automated Peak Extraction:** Utilizing multiple fitting models to isolate relevant data.
+* **Stopping Power Calculation:** Derived directly from measured alpha-particle energy loss.
+* **I-Value Extraction:** Determining mean excitation energies using the Bethe-Bloch formalism.
+* **Monte Carlo Simulation:** Independent stochastic particle transport modelling to validate the analytical framework.
+* **Theory vs. Experiment:** Direct comparison between simulated energy loss, experimental measurements, and theoretical predictions.
 
-Monte Carlo Simulation
-Independent Monte Carlo simulation of alpha-particle transport through the same materials.
-Comparison between simulated energy loss and theoretical Bethe-Bloch predictions.
-Validation of the analytical framework against stochastic particle transport.
-Repository Structure
-Al/
-├── code/
-├── data/
-└── figures/
+## Materials Analyzed
 
-Ni/
-├── code/
-├── data/
-└── figures/
+Experimental measurements and theoretical simulations were performed across a range of gaseous and metallic targets. Each target has an independent analysis pipeline.
 
-He/
-├── code/
-├── data/
-└── figures/
+| Material | State | Symbol | Directory |
+| :--- | :--- | :--- | :--- |
+| **Aluminium** | Metallic | Al | `/Al/` |
+| **Nickel** | Metallic | Ni | `/Ni/` |
+| **Helium** | Gaseous | He | `/He/` |
+| **Nitrogen** | Gaseous | N₂ | `/N/` |
+| **Argon** | Gaseous | Ar | `/Ar/` |
 
-N/
-├── code/
-├── data/
-└── figures/
+## Repository Structure
 
-Ar/
-├── code/
-├── data/
-└── figures/
+Each material directory is self-contained with its own data visualization scripts, processed datasets, and generated figures.
 
-Simulation/
-└── Monte Carlo implementation for alpha-particle transport
-Topics Covered
-Bethe-Bloch stopping power
-Alpha-particle energy loss
-Mean excitation energy (I-value)
-Silicon detector calibration
-Peak fitting and uncertainty analysis
-Numerical integration
-Monte Carlo particle transport
-Comparison between experiment, simulation, and theory
-
-This repository contains all analysis scripts, datasets, figures, and simulation code developed for the third-year undergraduate Physics project at the University of Manchester.
+```text
+.
+├── Al/                 
+│   ├── code/
+│   ├── data/
+│   └── figures/
+├── Ar/                 
+│   ├── code/
+│   ├── data/
+│   └── figures/
+├── He/                 
+│   ├── code/
+│   ├── data/
+│   └── figures/
+├── N/                  
+│   ├── code/
+│   ├── data/
+│   └── figures/
+├── Ni/                 
+│   ├── code/
+│   ├── data/
+│   └── figures/
+└── Simulation/         
+    └── Monte Carlo implementation for alpha-particle transport
