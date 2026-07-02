@@ -1,0 +1,5 @@
+# Calibration parameters for HE4: channel = a * E + c, or E = (channel - c) / a
+a = 319.2637396121763
+a_err = 0.15229972576208198
+c = 1.1938775468556742
+c_err = 0.4072052948976459

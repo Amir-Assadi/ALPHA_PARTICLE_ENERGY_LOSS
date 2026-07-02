@@ -1,0 +1,9 @@
+# Mean Excitation Energy Analysis Results for Helium
+# Material: Helium Gas (Z=2, A=4.002602 g/mol)
+# Temperature: 300.15 K
+#
+# COMBINED RESULTS (all sources):
+# Overall I = 43.95 ± 3.99 eV
+#
+# Individual source results:
+#   TH: I = 43.95 ± 3.94 eV (15 points)

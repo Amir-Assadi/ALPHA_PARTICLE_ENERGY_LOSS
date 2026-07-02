@@ -1,0 +1,5 @@
+# Calibration parameters for HE3: channel = a * E + c, or E = (channel - c) / a
+a = 167.97183983970692
+a_err = 0.13842746641105966
+c = 45.969387911365345
+c_err = 0.40720550691087726

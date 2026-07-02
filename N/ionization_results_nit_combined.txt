@@ -1,0 +1,12 @@
+# Mean Excitation Energy Analysis Results for Nitrogen
+# Material: Nitrogen Gas (Z=7, A=14.007 g/mol)
+# Temperature: 300.15 K
+#
+# COMBINED RESULTS (all sources):
+# Overall I = 136.07 ± 55.10 eV
+#
+# Individual source results:
+#   PU: I = 177.36 ± 19.17 eV (10 points)
+#   AM: I = 179.43 ± 14.14 eV (10 points)
+#   CM: I = 189.93 ± 23.44 eV (5 points)
+#   TH: I = 74.07 ± 6.18 eV (18 points)
