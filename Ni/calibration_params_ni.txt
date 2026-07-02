@@ -1,0 +1,5 @@
+# Calibration parameters for Ni: channel = a * E + c, or E = (channel - c) / a
+a = 304.85267645806243
+a_err = 0.027381080254758404
+c = -1.6505537209915062
+c_err = 0.09111742897645099
